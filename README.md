@@ -1,40 +1,40 @@
 # ReconTool
 
-Herramienta en Python para reconocimiento ofensivo: WHOIS, resolución DNS, escaneo de puertos y extracción de banners.
+Python tool for offensive reconnaissance: WHOIS, DNS resolution, port scanning, and banner grabbing.
 
 ---
 
-## Uso
+## Usage
 
-Ejecuta el script principal con:
+Run the main script with:
 
 ```bash
 python main.py
 ```
 
-Introduce el dominio objetivo cuando se te solicite y espera a que se muestren los resultados.
+Enter the target domain when prompted and wait for the results to be displayed.
 
 ---
 
-## Funcionalidades
+## Features
 
-- Consulta WHOIS del dominio  
-- Resolución de dominio a IP  
-- Escaneo de puertos comunes  
-- Extracción de banners de servicios en puertos abiertos  
+- WHOIS domain lookup
+- Domain to IP resolution
+- Common ports scanning
+- Banner grabbing from services on open ports
 
 ---
 
-## Tecnologías
+## Technologies
 
 - Python 3.x  
-- Librerías:  
+- Libraries:  
   - `whois`  
   - `socket`  
   - `concurrent.futures`  
 
 ---
 
-## Autor
+## Author
 
 [Alex Carrasco] - [GitHub](https://github.com/AlexCarrascoLlorca)
