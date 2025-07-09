@@ -4,18 +4,6 @@ Python tool for offensive reconnaissance: WHOIS, DNS resolution, port scanning, 
 
 ---
 
-## Usage
-
-Run the main script with:
-
-```bash
-python main.py
-```
-
-Enter the target domain when prompted and wait for the results to be displayed.
-
----
-
 ## Features
 
 - WHOIS domain lookup
@@ -29,11 +17,7 @@ Enter the target domain when prompted and wait for the results to be displayed.
 - Python 3.8+
 - Dependencies listed in `requirements.txt`
 
-Install them with:
-
-```bash
-pip install -r requirements.txt
-```
+---
 
 ## How to Run
 1. Clone the repository
@@ -42,17 +26,28 @@ git clone https://github.com/AlexCarrascoLlorca/ReconTool.git
 cd ReconTool
 ```
 
-2. Install the required libraries:
+2. (Optional but recommended) Create and activate a virtual environment
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+3. Install the required libraries:
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Run the tool:
+4. (Optional) Exit the virtual environment
+```bash
+deactivate
+```
+
+5. Run the tool:
 ```bash
 python main.py
 ```
 
-4. Follow the menu prompts and enter a domain (e.g. example.com) to start scanning.
+---
 
 ## Technologies
 
@@ -61,6 +56,14 @@ python main.py
   - `whois`  
   - `socket`  
   - `concurrent.futures`  
+
+---
+
+## Legal Disclaimer
+
+This tool is intended for educational and authorized testing purposes only.
+Do not use it against systems you do not own or lack explicit permission to test.
+Unauthorized use is illegal.
 
 ---
 
