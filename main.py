@@ -45,6 +45,7 @@ def menu():
             print("Exiting ReconTool...")
             break
         elif option not in ("1", "2", "3", "4"):
+            print("Invalid option. Try again.")
             break
 
         domain = input("Enter target domain (Ex: google.com): ").strip()
@@ -62,8 +63,6 @@ def menu():
             ip = print_dns(domain)
             if ip: 
                 print_ports(ip)
-        else: 
-            print("Invalid option. Try again.")
 
 if __name__ == "__main__":
     menu()
