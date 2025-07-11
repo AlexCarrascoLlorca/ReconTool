@@ -46,7 +46,7 @@ def menu():
             break
         elif option not in ("1", "2", "3", "4"):
             print("Invalid option. Try again.")
-            break
+            continue
 
         domain = input("Enter target domain (Ex: google.com): ").strip()
 
