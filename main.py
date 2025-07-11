@@ -44,6 +44,8 @@ def menu():
         if option == "5":
             print("Exiting ReconTool...")
             break
+        elif option not in ("1", "2", "3", "4"):
+            break
 
         domain = input("Enter target domain (Ex: google.com): ").strip()
 
